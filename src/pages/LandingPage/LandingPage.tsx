@@ -1,4 +1,5 @@
 import * as React from 'react';
+import { useNavigate } from 'react-router-dom';
 import {
   Button,
   CssBaseline,
@@ -6,17 +7,27 @@ import {
   Box,
   Typography,
   Container,
-  FormControl,
-  Input,
 } from '@mui/material';
 
+import { useAppDispatch } from '../../app/hooks';
+
+import mockData from '../../mockData/db.json';
+import { updateState } from './LandingPageSlice';
+
 export default function LandingPage() {
+  const dispatch = useAppDispatch();
+  const navigate = useNavigate();
+
   const handleSubmit = (event: React.FormEvent<HTMLFormElement>) => {
     event.preventDefault();
     const data = new FormData(event.currentTarget);
-    console.log({
-      name: data.get('name'),
-    });
+    const name = data.get('name');
+
+    dispatch(
+      updateState({ name, questions: mockData.questions, currentQuestion: 1 })
+    );
+
+    navigate('/question');
   };
 
   return (
@@ -55,7 +66,6 @@ export default function LandingPage() {
           >
             Start
           </Button>
-          <Input type="checkbox" />
         </Box>
       </Box>
     </Container>

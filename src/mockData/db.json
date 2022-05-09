@@ -1,0 +1,146 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "title": "You’re really busy at work and a colleague is telling you their life story and personal woes. You:",
+      "alternatives": [
+        {
+          "id": 1,
+          "points": 1,
+          "alternative": "Don’t dare to interrupt them"
+        },
+        {
+          "id": 2,
+          "points": 2,
+          "alternative": "Think it’s more important to give them some of your time; work can wait"
+        },
+        {
+          "id": 3,
+          "points": 3,
+          "alternative": "Listen, but with only with half an ear"
+        },
+        {
+          "id": 4,
+          "points": 4,
+          "alternative": "Interrupt and explain that you are really busy at the moment"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "You’ve been sitting in the doctor’s waiting room for more than 25 minutes. You:",
+      "alternatives": [
+        {
+          "id": 1,
+          "points": 1,
+          "alternative": "Look at your watch every two minutes"
+        },
+        {
+          "id": 2,
+          "points": 2,
+          "alternative": "Bubble with inner anger, but keep quiet"
+        },
+        {
+          "id": 3,
+          "points": 3,
+          "alternative": "Explain to other equally impatient people in the room that the doctor is always running late"
+        },
+        {
+          "id": 4,
+          "points": 4,
+          "alternative": "Complain in a loud voice, while tapping your foot impatiently"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "You’re having an animated discussion with a colleague regarding a project that you’re in charge of. You:",
+      "alternatives": [
+        {
+          "id": 1,
+          "points": 1,
+          "alternative": "Don’t dare contradict them"
+        },
+        {
+          "id": 2,
+          "points": 2,
+          "alternative": "Think that they are obviously right"
+        },
+        {
+          "id": 3,
+          "points": 3,
+          "alternative": "Defend your own point of view, tooth and nail"
+        },
+        {
+          "id": 4,
+          "points": 4,
+          "alternative": "Continuously interrupt your colleague"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "You are taking part in a guided tour of a museum. You:",
+      "alternatives": [
+        {
+          "id": 1,
+          "points": 1,
+          "alternative": "Are a bit too far towards the back so don’t really hear what the guide is saying"
+        },
+        {
+          "id": 2,
+          "points": 2,
+          "alternative": "Follow the group without question"
+        },
+        {
+          "id": 3,
+          "points": 3,
+          "alternative": "Make sure that everyone is able to hear properly"
+        },
+        {
+          "id": 4,
+          "points": 4,
+          "alternative": "Are right up the front, adding your own comments in a loud voice"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "During dinner parties at your home, you have a hard time with people who:",
+      "alternatives": [
+        {
+          "id": 1,
+          "points": 1,
+          "alternative": "Ask you to tell a story in front of everyone else"
+        },
+        {
+          "id": 2,
+          "points": 2,
+          "alternative": "Talk privately between themselves"
+        },
+        {
+          "id": 3,
+          "points": 3,
+          "alternative": "Hang around you all evening"
+        },
+        {
+          "id": 4,
+          "points": 4,
+          "alternative": "Always drag the conversation back to themselves"
+        }
+      ]
+    }
+  ],
+  "results": [
+    {
+      "type": "introvert",
+      "title": "You are more of a public introvert and private extrovert",
+      "description": "Within your circle of family and friends, you are completely at ease and it’s often you who takes the lead to organise outings, dinners, vacations, etc. However, as soon as you are in a public or professional setting you become rather inhibited. You don’t feel in tune with what you would qualify as agitation, rivalry or vainglory and this can sometimes appear to others as a kind of hidden criticism or a lack of ambition. In fact, your pragmatic temperament helps you successfully manage problems as and when they arise. You aren’t the kind to calculate your every"
+    },
+    {
+      "type": "extrovert",
+      "title": "You are more a extrovert person",
+      "description": "You can’t control all the cards so you have to adapt and, in fact, that doesn’t interest you at all? If this difference between work and home life doesn’t bother you, then carry on. However, if you feel frustrated by this imbalance, it could be useful to look into the deeper reasons (either on your own or with someone else) that keep you less focused on professional ambition. For instance, such reasons could be: a lack of thanks and recognition, a fear of not being up to the mark… It’s up to you to find out."
+    }
+  ]
+}

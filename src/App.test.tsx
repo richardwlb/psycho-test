@@ -1,15 +1,17 @@
-import React from 'react';
-import { render } from '@testing-library/react';
+import { render, screen } from '@testing-library/react';
+import '@testing-library/jest-dom';
 import { Provider } from 'react-redux';
 import { store } from './app/store';
 import App from './App';
 
-test('renders learn react link', () => {
-  const { getByText } = render(
+test('renders landing page', () => {
+  render(
     <Provider store={store}>
       <App />
     </Provider>
   );
 
-  expect(getByText(/learn/i)).toBeInTheDocument();
+  expect(
+    screen.getByText('Welcome to the Psycho Test, please enter your name')
+  ).toBeInTheDocument();
 });

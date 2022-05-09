@@ -1,9 +1,9 @@
 import { configureStore, ThunkAction, Action } from '@reduxjs/toolkit';
-import counterReducer from '../features/counter/counterSlice';
+import landingPageReducer from '../pages/LandingPage/LandingPageSlice';
 
 export const store = configureStore({
   reducer: {
-    counter: counterReducer,
+    info: landingPageReducer,
   },
 });
 
